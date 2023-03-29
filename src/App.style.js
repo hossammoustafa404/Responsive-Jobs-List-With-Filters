@@ -53,7 +53,7 @@ export const theme = {
   main: "hsl(180, 29%, 50%)",
   lightMain: "hsl(180, 29%, 50%,15%)",
   background: "hsl(180, 31%, 95%)",
-  jobBackground: "hsl(180, 52%, 96%)",
+  jobBackground: "#ffffff",
   shadow: "hsl(180, 8%, 52%)",
   title: "hsl(180, 14%, 20%)",
 };

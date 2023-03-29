@@ -1,6 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { ThemeProvider } from "styled-components";
 import PageWrapper, { GlobalStyle, theme } from "./App.style";
+import AppFooter from "./components/app-footer/AppFooter";
 import Filters from "./components/filters/Filters";
 import Job from "./components/job/Job";
 import { AppContext } from "./contexts/AppContext";
@@ -56,6 +57,7 @@ const App = () => {
           {filters.length !== 0 && <Filters />}
           <ul className="jobs-list">{renderedJobs}</ul>
         </div>
+        <AppFooter />
       </PageWrapper>
     </ThemeProvider>
   );
